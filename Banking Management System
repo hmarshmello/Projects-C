@@ -3,8 +3,6 @@
 #include<windows.h>
 #include <conio.h>
 
-void initgraph(int *graphicsDriver, int *graphicsMode, char *driverDirectoryPath);
-
 int i,j;
 int main_exit;
 void menu();
@@ -521,7 +519,7 @@ void menu(void)
 }
 int main()
 {
-        char pass[15],password[15] = "harshballi";\
+        char pass[15],password[15] = "password";\
             char h;
             printf("\tRespected Sir/Ma'am,\n\t\t\tTo login into the system you have to type the password\n\t\t\tUsing any other function key except Enter counts as character\n\t\t\tPress Enter to Continue");
             scanf("%c", &h);
